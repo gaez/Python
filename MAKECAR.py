@@ -63,6 +63,8 @@ elif model == 'WRX STi':
 
 #print('Input year desired:')
 
-year = input('Input year desired: ')
+#year = int(input('Input year desired: '))
+#year = int(year) + 1
+year = int(input('Input year desired: ')) + 1
 
-print("You picked a %s -whatever the car was-" % year)
+print("You picked a " + str(year) + " " + make + " " + model)
