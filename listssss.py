@@ -1,42 +1,15 @@
+# Here is more what I was looking for...
 
-#How many lists do I need?? How many could someone possibly want??
-# Got it. instead of list for individual car builds. 
-# Each attribute will have it's individual list and will be called 
-# upon by using element ID's.
+# You could store your cars in a list like this
+# car = [2019, 'Honda', 'Accord']
+# So then if you wanted to store more than one car you can have a list of cars like this
+cars = []
+# And then when you make a new car you can say cars.append(car)
 
-### Lists
-yearList = []
-makeList = []
-modelList = []
+#I want you to first ask me how many cars I want to make
+count = input("How many cars would you like to make?")
 
-### Calls for input from the user
-year = input('What year car?:')
-yearList.append(year)
-make = input('What make car?:')
-makeList.append(make)
-model = input('What model car?:')
-modelList.append(model)
+# Can you fill out the rest? Hint: use a while loop to make new cars.
 
-print(yearList + makeList + modelList)
-
-#print(yearList)
-#print(makeList)
-#print(modelList)
-
-### Do they want to continue making car lists?
-answer = print(input('Would you like to make another car?:\n'))
-if answer == 'yes' or answer == 'y':
-    print('Okay, Great.')
-else: 
-    print('Okay, thanks for you time.')
-
-print(input('What year?:'))
-yearList.append(year)
-print(input('What make?:'))
-makeList.append(make)
-print(input('What model?:'))
-modelList.append(model)
-
-print(yearList)
-print(makeList)
-print(modelList)
+# When you're done you can print out the list of cars like this to verify it works. we can worry about printing it nicely in the next task
+print(cars)
