@@ -32,9 +32,9 @@ elif make == 'Mazda':
 elif make == 'Suburu':
     print('Impreza, WRX, or WRX STi?')
 
-print('How select a model:')
+model = input('How select a model:')
 
-model = input()
+#model = input()
 
 if model == 'TL':
     print(" Acura TL")
@@ -65,4 +65,42 @@ elif model == 'WRX STi':
 
 year = input('Input year desired: ')
 
-print("You picked a %s -whatever the car was-" % year)
+#print("You picked a %s -whatever the car was-" % year)
+
+print("You picked a" " " +year+ " " +make+ " " +model)
+
+if model == 'Mazdaspeed':
+    print('You must have a huge dick! 8====D')
+elif model != 'Mazdaspeed':
+    print('Have a good day...........\n')
+
+import time
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+print(".")
+time.sleep(.2)
+
+
+print("Wait... What's another go?\nAnd this time you can enter whatever car you desire.\n")
+make2 = input('What make vehicle do you want?\n')
+model2 = input('Great! Now what trim type are you looking for?\n')
+print("Oh! golly Gee, the" " " +make2+ " " +model2+ " " "??" "!! You animal!")
+year2 = input('And the year for that?\n')
+print("For your second car you've pick a" " " +year2+ " " +make2+ " " +model2+"!")
+
